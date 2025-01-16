@@ -16,8 +16,15 @@
   --vp-home-hero-image-filter: blur(80px);
 }
 
-.title span {
+.VPNavBarTitle .title span {
   display: none;
+}
+
+.md-center img {
+  display: inline-block;
+  height: 22px;
+  margin-top: 6px;
+  margin-right: 6px;
 }
 
 @media (min-width: 960px) {
