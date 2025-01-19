@@ -13,7 +13,8 @@
 ```bash
 # 全局安装脚手架工具
 npm install -g willis-cli
-
+```
+```bash
 # 创建 FastUni 项目
 willis-cli create my-uniapp --template fastuni
 ```
