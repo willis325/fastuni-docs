@@ -29,10 +29,10 @@ pnpm i
 
 # 运行项目
 ## 运行 H5
-pnpm dev:h5
+pnpm run dev:h5
 
 ## 运行 微信小程序
-pnpm dev:mp-weixin
+pnpm run dev:mp-weixin
 
 ## 其他端运行，请自行查看 package.json 的 scripts 
 ```

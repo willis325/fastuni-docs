@@ -39,7 +39,7 @@ export default defineConfig({
         items: [
           { text: "介绍", link: "/guide/intro" },
           { text: "快速开始", link: "/guide/start" },
-          { text: "Vite插件篇", link: "guide/plugin" },
+          { text: "插件篇", link: "guide/plugin" },
           { text: "项目结构", link: "" },
           { text: "更新日志", link: "" },
           { text: "常见问题", link: "" },
