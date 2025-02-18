@@ -18,6 +18,11 @@ export default defineConfig({
     logo: "/logo-horizontal.svg",
     nav: [
       { text: "指南", link: "/guide/intro" },
+      { text: "开源项目",
+        items: [ 
+          { text: "willis-cli", link: "https://github.com/willis325/willis-cli", target: "_blank", rel: "noreferrer" },
+        ]
+      },
       {
         text: "相关链接",
         items: [
@@ -39,36 +44,31 @@ export default defineConfig({
         items: [
           { text: "介绍", link: "/guide/intro" },
           { text: "快速开始", link: "/guide/start" },
-          { text: "插件篇", link: "guide/plugin" },
-          { text: "项目结构", link: "" },
-          { text: "更新日志", link: "" },
-          { text: "常见问题", link: "" },
+          { text: "目录结构", link: "/guide/directory" },
+          { text: "代码规范", link: "/guide/code" },
+          { text: "插件篇", link: "/guide/plugin" },
+          { text: "样式篇", link: "/guide/style" },
+          { text: "UI组件库", link: "/guide/ui" },
+          { text: "更新日志", link: "/guide/changelog" },
+          { text: "常见问题", link: "/guide/faq" },
+          { text: "联系我", link: "/guide/contact" },
         ],
       },
-      {
-        text: "设计指南",
-        items: [
-          { text: "UI组件库", link: "" },
-          { text: "UnoCSS", link: "" },
-          { text: "主题配置", link: "" },
-          { text: "暗黑模式", link: "" },
-        ],
-      },
-      {
-        text: "Hooks",
-        items: [
-          { text: "useRequest", link: "" },
-          { text: "useDebounce", link: "" },
-          { text: "useThrottle", link: "" },
-        ],
-      },
-      {
-        text: "工具类库",
-        items: [
-          { text: "DayJs", link: "" },
-          { text: "Util", link: "" },
-        ],
-      },
+      // {
+      //   text: "Hooks",
+      //   items: [
+      //     { text: "useRequest", link: "" },
+      //     { text: "useDebounce", link: "" },
+      //     { text: "useThrottle", link: "" },
+      //   ],
+      // },
+      // {
+      //   text: "工具类库",
+      //   items: [
+      //     { text: "DayJs", link: "" },
+      //     { text: "Util", link: "" },
+      //   ],
+      // },
     ],
     socialLinks: [
       { icon: "github", link: "https://github.com/willis325/fastuni" },

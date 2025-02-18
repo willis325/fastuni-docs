@@ -7,7 +7,9 @@
 ### vite-plugin-uni-pages
 [@uni-helper/vite-plugin-uni-pages](https://uni-helper.js.org/vite-plugin-uni-pages) 基于文件系统的约定式路由。在 `src/pages` 目录下创建的 `.vue` 文件代表着一个路由，无需手动配置路由，插件会自动生成对应的 `pages.json` 文件。
 
-> 注意：请勿直接修改 `pages.json` 文件，该文件会自动生成，如需修改全局配置，请前往 `pages.config.ts` 文件中修改。如需修改页面配置，请前往 `.vue` 文件修改 `route` 代码块配置。
+::: warning 注意:
+请勿直接修改 `pages.json` 文件，该文件会自动生成，如需修改全局配置，请前往 `pages.config.ts` 文件中修改。如需修改页面配置，请前往 `.vue` 文件修改 `route` 代码块配置。
+:::
 
 配置示例，详细配置请前往 [@uni-helper/vite-plugin-uni-pages](https://uni-helper.js.org/vite-plugin-uni-pages) 查看。
 ```ts
@@ -77,7 +79,9 @@ export default defineUniPages({
 ### vite-plugin-uni-manifest
 [@uni-helper/vite-plugin-uni-manifest](https://uni-helper.js.org/vite-plugin-uni-manifest) 使用 `TypeScript` 编写 `uni-app` 的 `manifest.json`
 
-> 注意：请勿直接修改 `manifest.json` 文件，该文件会自动生成，如需修改配置，请前往 `manifest.config.ts` 文件中修改。
+::: warning 注意:
+请勿直接修改 `manifest.json` 文件，该文件会自动生成，如需修改配置，请前往 `manifest.config.ts` 文件中修改。
+:::
 
 `manifest.config.ts` 配置文件，详见 `uni-app` 官方文档的 [manifest.json 应用配置](https://uniapp.dcloud.net.cn/collocation/manifest.html)。
 
