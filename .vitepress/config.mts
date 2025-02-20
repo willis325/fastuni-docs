@@ -18,7 +18,7 @@ export default defineConfig({
     logo: "/logo-horizontal.svg",
     nav: [
       { text: "指南", link: "/guide/intro" },
-      { text: "联系我", link: "/guide/contact" },
+      { text: "联系作者", link: "/guide/contact" },
       { text: "我的开源项目",
         items: [ 
           { text: "willis-cli CLI 脚手架工具", link: "https://github.com/willis325/willis-cli" },
@@ -53,24 +53,9 @@ export default defineConfig({
           { text: "UI组件库", link: "/guide/ui" },
           { text: "更新日志", link: "/guide/changelog" },
           { text: "常见问题", link: "/guide/faq" },
-          { text: "联系我", link: "/guide/contact" },
+          { text: "联系作者", link: "/guide/contact" },
         ],
       },
-      // {
-      //   text: "Hooks",
-      //   items: [
-      //     { text: "useRequest", link: "" },
-      //     { text: "useDebounce", link: "" },
-      //     { text: "useThrottle", link: "" },
-      //   ],
-      // },
-      // {
-      //   text: "工具类库",
-      //   items: [
-      //     { text: "DayJs", link: "" },
-      //     { text: "Util", link: "" },
-      //   ],
-      // },
     ],
     socialLinks: [
       { icon: "github", link: "https://github.com/willis325/fastuni" },

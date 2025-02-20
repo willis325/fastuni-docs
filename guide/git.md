@@ -1,8 +1,19 @@
 # Git提交规范
 
-代码提交遵循 `@commitlint/config-conventional` 规范，具体请查看 [commitlint](https://github.com/conventional-changelog/commitlint)
+代码提交遵循 `@commitlint/config-conventional` 规范，具体请查看 [commitlint](https://github.com/conventional-changelog/commitlint) 文档
 
 更多配置，请修改项目 `.commitlintrc` 配置文件
+
+```json
+{
+  extends: ['@commitlint/config-conventional'],
+  rules: {
+    'body-leading-blank': [0],
+    'footer-leading-blank': [0],
+    'type-enum': [2, 'always', ['feat', 'bug', 'fix', 'ui', 'docs', 'style', 'perf', 'release', 'deploy', 'refactor', 'test', 'chore', 'revert', 'merge', 'build', 'day']],
+  },
+}
+```
 
 ## 提交内容格式
 ```bash
@@ -33,7 +44,7 @@
 | `test`       | 测试相关                             | 增加单元测试用例、补充 E2E 测试脚本               |
 | `chore`      | 构建/工具链改动                       | 更新 webpack 配置、修改 CI/CD 流程              |
 | `revert`     | 回滚提交                             | `revert: 撤销某次错误提交`                     |
-| **扩展类型**   |
+| **自定义类型**   |
 | `ui`         | 界面样式调整                          | 修改按钮圆角、调整表格间距                    |
 | `build`      | 构建系统调整                          | 升级依赖版本、修改 Dockerfile 配置           |
 | `ci`         | CI 配置变更                          | 调整 GitHub Actions 流程                  |
