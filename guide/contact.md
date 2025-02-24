@@ -7,7 +7,7 @@
 - 搜索微信号：`FzzzQQ`（或扫描下方二维码）  
 - 验证消息请备注：**「`fastuni`」**   
 
-<img src="/public/wechat.jpg" alt="微信二维码" width="300" />
+<img src="/wechat.jpg" alt="微信二维码" width="300" />
 
 ## 📧 邮件沟通  
 如需正式技术合作或项目咨询，请发送邮件至： `793207918@qq.com`  
