@@ -51,7 +51,7 @@ export default defineConfig({
           { text: "插件篇", link: "/guide/plugin" },
           { text: "样式篇", link: "/guide/style" },
           { text: "UI组件库", link: "/guide/ui" },
-          { text: "更新日志", link: "/guide/changelog" },
+          // { text: "更新日志", link: "/guide/changelog" },
           { text: "常见问题", link: "/guide/faq" },
           { text: "联系作者", link: "/guide/contact" },
         ],
