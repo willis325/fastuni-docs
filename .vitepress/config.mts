@@ -2,6 +2,7 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
+  base: '/fastuni-docs/',
   title: "FastUni - 快速开发 uni-app 模板项目",
   description: "最快速、最实用、最全能的uniapp开发脚手架",
   lang: 'zh-CN',
